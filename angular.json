@@ -27,9 +27,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.sass",
+              "/Users/chediavanderwesthuizen/contact-savvy/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "/Users/chediavanderwesthuizen/contact-savvy/node_modules/jquery/dist/jquery.min.js",
+              "/Users/chediavanderwesthuizen/contact-savvy/node_modules/popper.js/dist/umd/popper.min.js",
+              "/Users/chediavanderwesthuizen/contact-savvy/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {

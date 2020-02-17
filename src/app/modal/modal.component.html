@@ -1,0 +1,36 @@
+<div class="card">
+  <div class="modal-header">
+    <h4 class="modal-title">Add Contact</h4>
+    <a class="close" (click)="activeModal.dismiss('Cross click')">
+      <i class="fas fa-times"></i>
+    </a>
+  </div>
+  <div class="form-style">
+    <form [formGroup]="form">
+        <img class="rounded" src="../../assets/profile-placeholder.png" alt="defaul">
+        
+        <div><input class="input" formControlName="name" placeholder="Name" value="Name"></div>
+
+        <div ><input class="input" formControlName="surname" placeholder="Surname" value="Surname">
+        </div>
+        <div >
+          <input class="input" formControlName="number" placeholder="Mobile number" value="Mobile number">
+        </div>
+
+        <div >
+          <input class="input" formControlName="email" placeholder="Email address" value="Email address">
+        </div>
+        <div >
+          <input class="input" formControlName="address" placeholder="Address" value="Address">
+        </div>
+    </form>
+
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <button type="button" class="btn button2 btn-md" [disabled]="!form.valid" (click)="activeModal.dismiss('Cross click')">Cancel</button>
+        <button type="button" class="btn button btn-md" [disabled]="!form.valid" (click)="save()">Save</button>
+      </div>
+    </div>
+  
+  </div>
+</div>
