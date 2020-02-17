@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## External Libraries
+Includes: Bootstrap version 4.4.1
+          jquery version 3.0.0
+          popper.js version 1.16.1
+          @ng-bootstrap/ng-bootstrap version 4.1.1
