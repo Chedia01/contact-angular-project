@@ -31,3 +31,5 @@ Includes: Bootstrap version 4.4.1
           jquery version 3.0.0
           popper.js version 1.16.1
           @ng-bootstrap/ng-bootstrap version 4.1.1
+
+Remember to run npm install after pulling from repository.
